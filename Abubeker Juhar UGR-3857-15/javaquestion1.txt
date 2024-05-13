@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(strings[]args){
+        scanner scanner=new Scanner(System.in);
+        System.out.print("enter the size")
+        int size= scanner.nextInt();
+        int[] array=new int[size];
+        Systsem.out.println("enter elements");
+        for(int i=0;i<size;i++){
+            array[i]=scanner.nextInt();
+            System.out.println("enter no to be searched");
+            int searchNo=scanner.nextInt;
+            int count=0;
+            for(int num:array){
+                if(num==searchno){
+                    count++;
+                }
+                if(count>0){
+                    System.out.println(searchNo + "is present and it appears"+ count + "times")
+                }
+                else{
+                    System.out.println(searchNo + "is not present in the array");
+                }
+            }
+        }
+        scanner.close();
+    }
+}

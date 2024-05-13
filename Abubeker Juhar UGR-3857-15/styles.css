@@ -1,0 +1,29 @@
+h1{
+    color:black;
+    font-size: 10px;
+    background-image: ;
+}
+body{
+    background-color:white;
+}
+h2{
+    display:flexbox;
+    display: ;
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: burlywood;
+}
+img{
+    display:grid;
+   background: ;
+   height: 200PX;
+   width: 200px;
+   border-radius: 50px;
+}
+button{
+    color: aqua;
+    background-color: bisque;
+}
